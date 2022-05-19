@@ -1,0 +1,13 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+    operators.coreos.com/t8c-certified.turbonomic: ''
+spec:
+  channel: stable
+  installPlanApproval: Automatic
+  name: t8c-certified
+  namespace: turbonomic
+  source: redhat-operators
+  sourceNamespace: openshift-marketplace
+  startingCSV: t8c-operator.v42.9.0
+  
