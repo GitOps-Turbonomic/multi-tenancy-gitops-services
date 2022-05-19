@@ -8,7 +8,6 @@ spec:
   channel: stable
   installPlanApproval: Automatic
   name: t8c-certified
-  namespace: turbonomic
   source: redhat-operators
   sourceNamespace: openshift-marketplace
   startingCSV: t8c-operator.v42.9.0
